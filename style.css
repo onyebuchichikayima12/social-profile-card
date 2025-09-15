@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    height: 100vh;
+}
+.program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+    width: 310px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+}
+
+.subHeadingText, .subText{
+    color: hsl(0, 0%, 100%);
+}
+
+.headingText{
+    color: greenyellow;
+}
+
+button{
+    padding: .3rem;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(10, 10, 10, 0.865);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
